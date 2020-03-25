@@ -1,5 +1,44 @@
 
-
 body{
-    background-color: bisque;
+  margin: 0;
+  padding: 0;
 }
+
+.banner {
+  min-height: 16vh;
+}
+
+#titulo{
+  color: ghostwhite;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  padding-top: 25px;
+  margin-left: 50px;
+}
+#ctrl-seleccion{
+  margin-top: 35px;
+}
+#informacion{
+  color: hotpink;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  margin-right: 3px;
+  text-align: right;
+}
+
+.texto-label{
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: ghostwhite;
+}
+#contenedor-cartas{
+    padding: 2rem;
+}
+
+.carta{
+    width: 10rem !important ;
+    margin: 5px;
+}
+

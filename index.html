@@ -2,29 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css/">
+  <link rel="stylesheet" href="node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.css/">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <form class="form-inline ml-auto"> 
-            <input type="text" class="form-control mr-sm-2" placeholder="Search">
-            <button type="submit" class="btn btn-outline-light">Buscar</button>
-        </form>
+  <div class="container-fluid bg-dark banner">
+    <div class="row">
+      <div class="header col-xs-8 col-md-8" id="cabecera">
+        <h1 id="titulo">CONVERSOR DE DIVISAS</h1>
+      </div>
+      <div class="form-group form-inline col-xs-4 col-md-4" id="ctrl-seleccion">
+        <label class="col-form-label col-sm-2 texto-label" for="select-moneda">Divisa:</label>
+        <select class="custom-select col-sm-4 " title="Choose one of the following." id="select-moneda">
+          <option>EUR</option>
+        </select>
+        <label class="texto-label col-sm-2" for="dtp-fecha">Fecha:</label>
+        <input class="datepicker col-sm-4" data-date-format="yyyy-mm-dd" id="dtp-fecha">
+      </div>
+     </div>
+     <p id="informacion">Divisa: <span id="divisa"></span> Fecha: <span id="fecha"></p>
+  </div>
+  
+  <div class="card-group" id="contenedor-cartas">
 
-    </nav>
+  </div>
+
 
 
 
 </body>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+
 <script src="src/js/index.js"></script>
 
 </html>

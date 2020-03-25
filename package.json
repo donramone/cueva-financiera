@@ -1,0 +1,26 @@
+{
+  "name": "cueva-financiera",
+  "version": "1.0.0",
+  "description": "Ejercicio que consume la API Exchange rates para observar la devaluacion del peso Argentino.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-datepicker": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donramone/cueva-financiera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donramone/cueva-financiera/issues"
+  },
+  "homepage": "https://github.com/donramone/cueva-financiera#readme"
+}
