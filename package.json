@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "bootstrap-datepicker": "^1.9.0"
+    "bootstrap-datepicker": "^1.9.0",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
